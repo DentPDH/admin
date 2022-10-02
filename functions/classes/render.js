@@ -81,7 +81,7 @@ const renders ={
       renderContent:(data)=>data.groupOf?`${data.groupOf}`:''
     },
     {
-      text:'ข้อมูลเพิ่มเติม',
+      text:'ต้องการทำอะไรในช่องปาก เช่น อุดฟัน ถอนฟัน ขุดหินปูน เป็นต้น',
       style:'tableContentStyle',
       renderContent:(data)=>data.remark?`${data.remark}`:''
     }
